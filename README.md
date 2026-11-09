@@ -12,7 +12,7 @@ The application provides a simple interface for organizing and displaying projec
 - Display projects dynamically.
 - Search projects by title or description.
 - Responsive layout for different screen sizes.
-- Reusable React components.
+- Reusable React components
 
 ## Technologies Used
 
