@@ -1,16 +1,70 @@
-# React + Vite
+# Personal Project Showcase App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+The Personal Project Showcase App is a React-based web application that allows users to add, view, and search for personal projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application provides a simple interface for organizing and displaying project information.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new projects using a form.
+- Display projects dynamically.
+- Search projects by title or description.
+- Responsive layout for different screen sizes.
+- Reusable React components.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone your github repository URL
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd personal-project-showcase
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL provided in your terminal.
+
+## How to Use
+
+1. Open the application.
+2. Enter a project title.
+3. Enter a project description.
+4. Click the Add Project button.
+5. View the newly added project.
+6. Use the search field to find projects by title or description.
+
+## Limitations
+
+- Projects are stored in React state and are not permanently saved.
+- Refreshing the browser clears the projects added during that session.
+- The application does not currently use a backend database.
+
+## Author
+
+Personal Project Showcase App – React SPA Assignment.
